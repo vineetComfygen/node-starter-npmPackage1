@@ -4,13 +4,13 @@
   "description": "CLI tool to generate an MVC backend structure",
   "main": "index.js",
   "bin": {
-    "setup-mvc-backend": "./index.js"  // Command name and entry script
+    "setup-mvc-backend": "./index.js"
   },
   "dependencies": {
-    "fs-extra": "^10.0.0"  // Ensure dependencies needed for file handling are present
+    "fs-extra": "^10.0.0"
   },
   "engines": {
-    "node": ">=14.0.0"  // Node version support
+    "node": ">=14.0.0"
   },
   "license": "MIT"
 }
