@@ -1,0 +1,16 @@
+{
+  "name": "setup-mvc-backend",
+  "version": "1.0.0",
+  "description": "CLI tool to generate an MVC backend structure",
+  "main": "index.js",
+  "bin": {
+    "setup-mvc-backend": "./index.js"  // Command name and entry script
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0"  // Ensure dependencies needed for file handling are present
+  },
+  "engines": {
+    "node": ">=14.0.0"  // Node version support
+  },
+  "license": "MIT"
+}
